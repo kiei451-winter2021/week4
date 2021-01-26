@@ -14,6 +14,12 @@ let quotes = [
 // 1) loop through the movie quotes and write them to the output (with Tailwind)
 // 2) refactor into cleaner, easier-to-understand functions
 
+// EventTarget.addEventListener(type, listener)
+// https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+
+// Element.insertAdjacentHTML(position, text)
+// https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML
+
 window.addEventListener('DOMContentLoaded', function() {
   let outputElement = document.querySelector('.output')
   outputElement.insertAdjacentHTML('beforeend', 'Hello!')
